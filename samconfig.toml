@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "axum-app"
+resolve_s3 = true
+s3_prefix = "axum-app"
+region = "us-east-1"
+profile = "szymon-local"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
